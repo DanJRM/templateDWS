@@ -23,3 +23,33 @@ section:nth-child(even){
     height: 300px;
     background-color: transparent;
 }
+.btn-new {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0 !important;
+    border: 3px solid;
+  }
+  .btn-new:hover {
+    color: white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+  }
+  .btn-new2 {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0 !important;
+    border: 3px solid;
+  }
+  .btn-new2:hover {
+    color: white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+  }
+  
+  .btn-new:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+
+
